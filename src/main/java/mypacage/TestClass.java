@@ -32,6 +32,13 @@ public class TestClass {
         Car car5 = new Car("Red", 2100, 2000, 5100);
         System.out.println(car5.color + " " + car5.height + " " + car5.width + " " + car5.length);
 
+        Food pizza = new Food("Carbonara", 500);
+        System.out.println(pizza.dish);
+
+        System.out.println(pizza.price);
+
+        pizza.MenuPrice(pizza.price);
+
 
     }
 }

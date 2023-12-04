@@ -1,7 +1,7 @@
 package mypacage;
 
 public class TestClass {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // модификатор static позволяет хранить переменную и метод в ед экземпляре в классе
 //        System.out.print("Hello world! ");
 //        System.out.println("It's my first program");
 //        System.out.println("Good bye!");
@@ -38,6 +38,21 @@ public class TestClass {
         System.out.println(pizza.price);
 
         pizza.MenuPrice(pizza.price);
+
+        System.out.println(Car.var);
+//         Car.var = 100;
+        System.out.println(car1.var);
+        System.out.println(car2.var);
+        System.out.println(car3.var);
+
+
+        Car.method();
+
+        String.format("New \s string", "sting");
+
+
+
+
 
 
     }

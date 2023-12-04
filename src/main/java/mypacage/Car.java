@@ -1,6 +1,11 @@
 package mypacage;
 
 public class Car {
+   final static int var = 10; //статичная переменная static,
+    // final - не может переопределять в другом классе
+    static void method() { //статичный метод
+        System.out.println("Static method");
+    }
 
     public Car() {
         System.out.println("New car created!");
